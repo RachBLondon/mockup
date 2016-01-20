@@ -1,7 +1,9 @@
 * {
   font-family: 'Open Sans', sans-serif;
 }
-
+button:hover {
+  background-color: #cccc66;
+}
 .container {
   width:940px;
   margin-left: auto;
@@ -14,6 +16,7 @@ nav {
 margin-top: 20px;
 width: 100%;
 display: flex;
+margin-bottom: 3em;
 }
 
 .logo {
@@ -43,13 +46,25 @@ display: flex;
   border-right: solid 1px;
 }
 
+.nav-tabs ul li:hover{
+  color: #cccc66;
+}
 .nav-tabs ul li:last-child{
   border-right: none;
+}
+
+header {
+  font-weight: bold;
 }
 
 /*main styling*/
 main {
   display: flex;
+  margin-top: 3em;
+}
+
+p {
+  margin-bottom: 2em;
 }
 
 .left-column {
@@ -68,4 +83,61 @@ main button {
       -webkit-appearance: none;
       border-radius: 4px;
       border-style: none;
+      margin: 3px;
+}
+
+/*footer styling*/
+footer {
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+}
+
+footer h3 {
+  font-weight: 600;
+  margin-bottom: 2em;
+}
+
+footer button {
+  border:none;
+  border-radius: 4px;
+}
+
+footer input {
+  border-radius: 4px;
+  border-style: groove;
+  height: 20px;
+}
+
+.newsletter {
+  width: 33.3333%;
+}
+
+.telephone{
+  width: 33.3333%;
+    text-align: center;
+}
+
+.tel-button {
+  font-size: 28px;
+}
+
+.request-callback {
+  width: 33.3333%;
+}
+
+.request-callback h3 {
+  text-align: center;
+}
+.request-callback input {
+  width: 90%;
+  text-align: center;
+}
+.request-callback input, label {
+    display:block;
+}
+.request-callback button {
+ float: right;
+margin-top: 5px;
+ margin-right: 9%;
 }
