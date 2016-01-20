@@ -8,6 +8,8 @@
   margin-right: auto;
 }
 
+
+/*nav styling*/
 nav {
 margin-top: 20px;
 width: 100%;
@@ -43,4 +45,27 @@ display: flex;
 
 .nav-tabs ul li:last-child{
   border-right: none;
+}
+
+/*main styling*/
+main {
+  display: flex;
+}
+
+.left-column {
+  width: 50%;
+  padding-right: 3em;
+  border-right: solid 1px;
+}
+
+.right-column {
+  width: 50%;
+  padding-left: 3em;
+}
+
+main button {
+      font-size: 16px;
+      -webkit-appearance: none;
+      border-radius: 4px;
+      border-style: none;
 }
